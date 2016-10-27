@@ -2,15 +2,15 @@ en-GB:
   activerecord:
     attributes:
       spree/address:
-        address1: Address
-        address2: Address (contd.)
-        city: City
-        country: Country
-        firstname: First Name
-        lastname: Last Name
-        phone: Phone
-        state: County
-        zipcode: Post Code
+        address1: Cím
+        address2: Cím (contd.)
+        city: Város
+        country: Ország
+        firstname: Keresztnév
+        lastname: Vezetéknév
+        phone: Telefon
+        state: Megye
+        zipcode: Irányítószám
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -20,60 +20,60 @@ en-GB:
       spree/country:
         iso: ISO
         iso3: ISO3
-        iso_name: ISO Name
-        name: Name
-        numcode: ISO Code
+        iso_name: ISO Név
+        name: Név
+        numcode: ISO Kód
       spree/credit_card:
         base:
-        cc_type: Type
-        month: Month
+        cc_type: Típus
+        month: Hónap
         name:
-        number: Number
+        number: Szám
         verification_value: Verification Value
-        year: Year
+        year: Év
       spree/inventory_unit:
-        state: County
+        state: Megye
       spree/line_item:
-        price: Price
-        quantity: Quantity
+        price: Ár
+        quantity: Mennyiség
       spree/option_type:
-        name: Name
-        presentation: Presentation
+        name: Név
+        presentation: Bemutatás
       spree/order:
         checkout_complete: Checkout Complete
         completed_at: Completed At
         considered_risky:
-        coupon_code: Coupon Code
-        created_at: Order Date
-        email: Customer E-Mail
-        ip_address: IP Address
+        coupon_code: Kupon kód
+        created_at: Rendelési dátum
+        email: Vásárlói email
+        ip_address: IP cím
         item_total: Item Total
-        number: Number
-        payment_state: Payment State
-        shipment_state: Shipment State
-        special_instructions: Special Instructions
-        state: County
+        number: Szám
+        payment_state: Payment state
+        shipment_state: Shipment state
+        special_instructions: Egyéb útmutatók
+        state: Megye
         total: Total
       spree/order/bill_address:
-        address1: Billing address street
-        city: Billing address city
-        firstname: Billing address first name
-        lastname: Billing address last name
-        phone: Billing address phone
-        state: Billing address county
-        zipcode: Billing address post code
+        address1: Számlázási cím utca
+        city: Számlázási cím város
+        firstname: Számlázási cím keresztnév
+        lastname: Számlázási cím vezetéknév
+        phone: Számlázási cím telefon
+        state: Számlázási cím megye
+        zipcode: Számlázási cím irányítószám
       spree/order/ship_address:
-        address1: Shipping address street
-        city: Shipping address city
-        firstname: Shipping address first name
-        lastname: Shipping address last name
-        phone: Shipping address phone
-        state: Shipping address county
-        zipcode: Shipping address post code
+        address1: Kiszállítási cím utca
+        city: Kiszállítási cím város
+        firstname: Kiszállítási cím keresztnév
+        lastname: Kiszállítási cím vezetéknév
+        phone: Kiszállítási cím telefon
+        state: Kiszállítási cím megye
+        zipcode: Kiszállítási cím irányítószám
       spree/payment:
-        amount: Amount
+        amount: Összeg
       spree/payment_method:
-        name: Name
+        name: Név
       spree/product:
         available_on: Available On
         cost_currency: Cost Currency
